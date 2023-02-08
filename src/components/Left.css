@@ -1,0 +1,122 @@
+.left{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.left_card{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+.card_bg{
+    background-image: url("/public/images/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+    background-size: 100%;
+    z-index: -10;
+    height: 60px;
+    margin: -28px -12px 0px;
+}
+.card_profile{
+    background-image: url("/public/images/photo.svg");
+    background-repeat: no-repeat;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    margin: -60px auto 12px;
+    width: 72px;
+    height: 72px;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 90px;
+    background-color: white;
+    cursor: pointer;
+}
+.content{
+    text-align: center;
+    line-height: 1.55;
+    padding: 10px 0;
+}
+.content > a{
+    font-size: 12px;
+    color: #8a66c2;;
+    text-decoration: none;
+}
+.content_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom:  1px solid  rgba(0, 0, 0, 0.06);
+    align-items: center;
+    cursor: pointer;
+}
+.content_1 > span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.66);
+}
+.content_1 > img{
+    width: 15px;
+}
+.content_1:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.content_2{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-bottom:  1px solid  rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    
+}
+.content_2:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.content_2 > span{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.66);
+
+}
+.left_card_bottom{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+
+}
+.left_card_bottom > span{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.66);
+    font-weight: bold;
+    padding: 5px 0px;
+    cursor: pointer;
+   
+
+}
+.left_card_bottom > span:last-child{
+    color: rgba(0, 0, 0, 0.4);
+    border-top:  1px solid  rgba(0, 0, 0, 0.06);
+ 
+}
+.left_card_bottom > span:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+
+}
+.events{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 786px) {
+    
+}

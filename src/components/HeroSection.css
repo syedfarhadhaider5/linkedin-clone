@@ -1,0 +1,88 @@
+.HeroSection{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px 45px;
+}
+.HeroSection > img{
+    width: 570px;
+    height: 600px;
+    display: flex;
+    align-self:flex-start;
+}
+.HeroSection > div > h1{
+    font-size: 56px;
+    color: #2977c9;
+    font-weight: 200;
+    margin-bottom: 40px;
+    line-height: 80px;
+    margin: 10px;
+
+}
+.offer_card{
+    background-color: white;
+    padding: 20px 12px;
+    max-width: 70%;
+    margin: 10px;
+    transition: 200ms ease-in;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+.offer_card > h3{
+    text-align: center;
+}
+
+.offer_card:hover{
+    box-shadow: 5px 5px 7px -7px rgba(0, 0, 0, 0.3);
+
+}
+.google_btn{
+    margin-top: 40px;
+}
+.google_btn > button > img{
+    padding-right: 20px;
+}
+.google_btn > button{
+    height: 60px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 30px;
+    background: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+@media only screen and (max-width: 786px) {
+    .HeroSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .offer_card{
+        max-width:  100%;
+        }
+        .google_btn > button{
+            width: 100%;
+            margin-bottom: 30px;
+}
+.HeroSection > div > h1{
+        font-size: 20px;
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+        
+}
+.HeroSection > img{
+    width: 400px;
+    height: 370px;
+    align-self: center;
+
+}
+}

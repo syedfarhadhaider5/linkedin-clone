@@ -1,0 +1,102 @@
+.PostModel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    animation: fadeIn 0.5s;
+    overflow-y: scroll;
+   
+}
+.modelcontent{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;    
+}
+.model_middle{
+    display: flex;
+    flex-direction:column ;
+    padding: 12px 24px;
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user > img{
+    height: 30px;
+    border-radius: 25px;
+}
+.user > h3{
+    margin-left: 10px;
+}
+textarea{
+    resize: none;
+    border: none;
+    outline: none;
+}
+.model_bottom{
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftModel{
+    display: flex;
+
+}
+.leftModel >  button{
+margin-left: 10px;
+background: transparent;
+border: none;
+cursor: pointer;
+}
+.model_bottom >  button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+    }
+.disablebtn{
+    background-color: #cccccc !important;
+    color: black;
+}
+.model_file{
+    padding: 12px 24px;
+
+}
+.model_file > p {
+    text-align: center !important;
+}
+.model_file > img{
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+.videourl{
+    padding: 12px 24px;
+}
+.videourl > input{
+    width: 50%;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+
+}

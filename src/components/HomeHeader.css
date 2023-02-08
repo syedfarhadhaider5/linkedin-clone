@@ -1,0 +1,107 @@
+.HomeHeader{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 24px;
+    margin: 0 auto;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.HomeHeader > div > img{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+}
+.search > input{
+    border: none;
+    background-color: #cccccc;
+    height: 40px;
+    padding: 0px 25px 0px 40px;
+    border-radius: 3px;
+    border-color: #8a66c2;;;
+    font-size: 16px;
+}
+
+.search > .MuiSvgIcon-root{
+    position: absolute;
+    left: 10px;
+  
+}
+.links{
+    margin-left: auto;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+.links > ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin-right: 80px;
+}
+.links > ul > li{
+    display: flex;
+    align-items: center;
+}
+.links > ul > li > a >  .MuiSvgIcon-root{
+    font-size: 30px;
+}
+.links > ul > li > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.75);
+}
+.user_avatar > span{
+    display: flex;
+    align-items: center;
+
+}
+.logout{
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 3px 3px 5px -5px rgba(0, 0, 0, 0.75);
+    transition: 300ms ease-in;
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+}
+.show_logout:hover > .logout{
+    display: block;
+}
+.active{
+    border-bottom: 3px solid black;
+    width: 100%;
+} 
+@media only screen and (max-width: 786px) {
+       .links{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            width: 100%;
+            overflow-x: scroll;
+       }
+       .logout{
+        position: absolute;
+        top: -10px;
+        z-index: 300px;
+    }
+}

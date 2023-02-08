@@ -1,0 +1,131 @@
+.Middle{
+    padding: 0px 120px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.middle_area{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+.top{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.top > button{
+    border: none;
+    background: transparent;
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.top > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+}
+.bottom{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom > button > span{
+    color: #8a66c2;;
+    padding-left: 4px;
+}
+.bottom > button{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.post_container{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.top_post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+}
+.top_post > a >img{
+    width: 50px;
+    height: 50px;
+}
+.top_post > a{
+    display: flex;
+}
+.top_post > a > div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+.top_post > a > div > span{
+    font-size: 10;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.66);
+}
+.left_side{
+    display: flex;
+}
+.post_description{
+    padding: 10px 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.66);
+   font-size: 14px;
+
+}
+.post_image > img{
+    width: 100%;
+}
+.post_interaction{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 12px;
+}
+.post_interaction > button
+{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.post_interaction > button:hover
+{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.post_interaction > button > span
+{
+    padding-left: 5px;
+    font-size: 12px;
+    color: gray;
+}
+.post_interaction > button > .post_interaction {
+    font-size: 2px;
+    color: gray;
+}
+@media only screen and (max-width: 786px) {
+    .Middle{
+        padding: 0px 0px;
+    }
+}

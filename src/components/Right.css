@@ -1,0 +1,58 @@
+.Right{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.right_card{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px 15px;
+}
+.card_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.66);
+    font-weight: bold;
+}
+.card_middle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.follow > span{
+    color: rgba(0, 0, 0, 0.66);
+    font-weight: bold;
+}
+.follow > button{
+    width: fit-content;
+    background: transparent;
+    padding: 12px;
+    border-radius: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.recommed{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #8a66c2;;;
+    font-weight: bold;
+    cursor: pointer;
+}
+.recommed > a{
+    margin-right: 10px;
+}
+.recommed > .MuiSvgIcon-root{
+    color: #8a66c2;;;
+
+}

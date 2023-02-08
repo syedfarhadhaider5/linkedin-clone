@@ -1,0 +1,7 @@
+Linkdin Clone
+
+Technology Stack Used
+
+react
+redux
+normal css
